@@ -45,7 +45,7 @@ li {
 header {
   text-align: center;
   height: 100vh;
-  background: url(media/Sans\ titre.jpg) no-repeat fixed 50% 50%;
+  background: url(./media/Sans\ titre.jpg) no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
@@ -107,15 +107,37 @@ h2 {
 
 .btn-cv a {
   padding: 20px 80px;
-  border: 1px solid #b3aca7;
+  border: 1px solid #283655;
   width: 300px;
+  border-radius: 0px;
 }
 
 .btn-cv:hover a {
-  background: #b3aca7;
+  background: #283655;
   color: #e2dedb;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.6s ease-in-out;
   text-decoration: none;
+  border-radius: 20px;
+}
+
+.btn-hobbies {
+  margin-top: 45px;
+  text-align: center;
+
+}
+
+.btn-hobbies a {
+  padding: 20px 80px;
+  border: 1px solid #283655;
+  width: 300px;
+}
+
+.btn-hobbies:hover a {
+  background: #283655;
+  color: #e2dedb;
+  transition: all 0.6s ease-in-out;
+  text-decoration: none;
+  border-radius: 20px;
 }
 
 /* ***************************************languages************************************* */
@@ -466,6 +488,14 @@ h2 {
   justify-content: center;
 }
 
+.wrap1 {
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* .button {
   min-width: 300px;
   min-height: 60px;
@@ -780,7 +810,7 @@ h4 img {
   margin: 100px 5% 0 5%;
   padding: 40px 40px 60px 40px;
   box-shadow: 0px 0px 50px #a8a8a9;
-  background: url(media/Image.png) no-repeat fixed 50% 50%;
+  background: url(./media/Image.png) no-repeat fixed 50% 50%;
 
 }
 
@@ -858,7 +888,7 @@ button i::before {
   top: -2px;
   border: 2px solid var(--clr);
   background: #272822;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 button:hover i::before {
@@ -876,7 +906,7 @@ button i::after {
   bottom: -2px;
   border: 2px solid var(--clr);
   background: #272822;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 button:hover i::after {
@@ -915,7 +945,7 @@ button:hover i::after {
 
 /* *******************************************************************************VEILLE************************************************************************************ */
 #veille {
-  background: url(media/veille.png) no-repeat fixed 50% 50%;
+  background: url(./media/veille.png) no-repeat fixed 50% 50%;
   margin: 100px 5% 0 5%;
   padding: 40px 10px 60px 40px;
   box-shadow: 0px 0px 50px #a8a8a9;
